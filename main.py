@@ -24,7 +24,7 @@ def fahrenheit_to_celcius(f):
 
 
 def celsius_to_fahrenheit(c):
-    result = c*9/5+32
+    result = c * 9 / 5 + 32
     G_entry.insert(0, round(result, 2))
 
 
@@ -76,8 +76,6 @@ def close_program():
     msg_box = tk.messagebox.askquestion("Exit Application", "Are you sure you want to exit the application", icon="warning")
     if msg_box == "yes":
         root.destroy()
-    else:
-        tk.messagebox.showinfo("Return", "You will now return to the application screen")
 
 
 # The Fahrenheit symbol and entry window
